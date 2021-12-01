@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/show",
+    "pages/news/index",
+    "pages/news/show",
+    "pages/list/index",
+    "pages/shop/index",
+    "pages/shop/show",
+    "pages/list/add",
+    "pages/timeline/index",
+    "pages/user/index",
+    "pages/user/user"
+  ],
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#03CD8E",
+    "navigationBarTitleText": "旅游",
+    "navigationBarTextStyle":"white"
+  },
+  
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/index.png",
+        "selectedIconPath": "images/tabbar/index.png"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "text": "动态",
+        "iconPath": "images/tabbar/shop.png",
+        "selectedIconPath": "images/tabbar/shop.png"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "text": "酒店",
+        "iconPath": "images/background/news.png",
+        "selectedIconPath": "images/background/news.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "images/tabbar/user.png",
+        "selectedIconPath": "images/tabbar/user.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
